@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white !important;
+}
+
+body {
+  background-color: #8a0e8a;
+}
+
+/* ----- nav bar section ------- */
+#nav-bar {
+  /* width: 100%; */
+  background-color: #da3495;
+}
+
+.nav-item {
+  padding: 0 12px;
+  font-weight: 500;
+}
+
+.nav-item a:hover {
+  color: #999999 !important;
+}
+
+#search-input {
+  border-radius: 20px;
+}
+
+#nav-right i:hover {
+  box-shadow: 0px 0px 1px 1px #060303;
+}
+
+/* ------ future is now banner section ------- */
+
+.image-size {
+  /* width: 450px;
+  height: 370px; */
+  width: 99%;
+  height: 90%;
+}
+
+#more-btn {
+  width: 140px;
+  border: 1px solid white;
+  font-weight: 700;
+  border-radius: 15px;
+  background-color: #d617d6;
+}
+
+#more-btn:hover {
+  background-color: #4a1230;
+}
+
+#smart-home {
+  /* width: 100vw !important; */
+  margin: 5rem auto;
+  background-color: #c27ba0;
+  border-bottom: 2px solid black;
+}
+
+#smart-home h1 {
+  width: 270px;
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 7px;
+}
+
+#smart-home h3 {
+  position: relative;
+  bottom: 5px;
+}
+
+#smart-home p {
+  width: 400px;
+  padding: 12px 0;
+}
+
+/* ------ security system ------ */
+
+#security-system h2 {
+  width: 370px;
+  /* font-size: 3.5rem; */
+  font-weight: 700;
+  letter-spacing: 7px;
+  font-weight: 700;
+}
+
+#security-system h5 {
+  position: relative;
+  bottom: 5px;
+}
+
+#security-system p {
+  width: 380px;
+  padding: 12px 0;
+}
+
+/* ----smart home features */
+
+#smart-features {
+  /* width: 80%; */
+  background-color: #bb4b85;
+}
+#smart-features h1 {
+  font-size: 4rem;
+}
+
+#smart-features h5 {
+  padding-top: 15px;
+}
+
+/*--------- security mode type -------*/
+#security-mode-title {
+  letter-spacing: 5px;
+}
+
+#security-mode img {
+  width: 150px;
+  height: 130px;
+}
+
+#security-mode div {
+  box-shadow: 2px 2px 3px 1px white;
+  background-image: linear-gradient(#770942, #e50b7c);
+  border-radius: 15px;
+}
+
+/* #security-mode p {
+  width: 300px;
+} */
+
+.btn-1 {
+  border: 1px solid white;
+  font-weight: 700;
+}
+
+.btn-1:hover {
+  background-color: #4a1230;
+}
+
+#para-width {
+  width: 92% !important;
+  position: relative;
+  left: 4%;
+}
+
+/* --------smart home section 2 -------- */
+#smart-home-title {
+  /* width: 270px; */
+  font-size: 3.1rem;
+  font-weight: 700;
+  letter-spacing: 7px;
+}
+
+/* -----------monitor home remotely section  --------*/
+
+#monitor h1 {
+  width: 2rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  padding-bottom: 20px;
+}
+
+#monitor li {
+  padding-bottom: 20px;
+}
+
+#monitor h3 {
+  letter-spacing: 4px;
+}
+
+#monitor h5 {
+  letter-spacing: 3px;
+}
+
+#monitor h2 {
+  font-size: 3rem;
+  letter-spacing: 8px;
+  font-weight: 700;
+}
+
+#monitor button {
+  width: 6rem;
+  height: 2rem;
+  border: 2px solid white;
+}
+
+/* --- about us section -- */
+#about-list {
+  position: relative;
+  left: -30px;
+}
+
+/* -------- footer ------------- */
+#footer {
+  background-color: #4a1230;
+}
+
+/* ----------responsive design ----------- */
+@media screen and (min-width: 992px) {
+  #nav-right {
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .image-size {
+    height: 80%;
+  }
+
+  #smart-home p {
+    width: 330px;
+  }
+}
+
+/* mobile devices */
+@media screen and (max-width: 576px) {
+  #smart-home img {
+    display: none;
+  }
+
+  #smart-home h1 {
+    position: relative;
+    left: 12%;
+  }
+
+  #smart-home p {
+    width: 300px;
+    position: relative;
+    left: 6%;
+  }
+
+  #security-system p {
+    width: 340px;
+  }
+
+  #about-list li:nth-child(2) {
+    position: relative;
+    left: 0;
+  }
+
+  #about-list li:nth-child(3) {
+    position: relative;
+    left: -6px;
+  }
+
+  /* #security-system div:nth-child(2) {
+    position: relative;
+    left: 8%;
+  } */
+}
